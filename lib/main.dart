@@ -407,7 +407,7 @@ class MessageDetailScreenState extends State<MessageDetailScreen> {
                                           CrossAxisAlignment.center,
                                       children: [
                                         Text(
-                                          detail['timestamp'],
+                                         'Today , ' + detail['timestamp'],
                                           style: const TextStyle(
                                             fontSize: 12,
                                             color: Colors.grey,
